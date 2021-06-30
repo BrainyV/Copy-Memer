@@ -1,0 +1,25 @@
+{
+  "name": "copy-memer",
+  "version": "1.0.7",
+  "description": "A currency bot like Dank Memer that you can say a copy of it, but they are coded differently so NAH",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrainyV/Copy-Memer.git"
+  },
+  "keywords": [
+    "CurrencyBot",
+    "currency",
+    "bot",
+    "discord-bot"
+  ],
+  "author": "Brainy#0852 with the help of justme#6689",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrainyV/Copy-Memer/issues"
+  },
+  "homepage": "https://github.com/BrainyV/Copy-Memer#readme"
+}
