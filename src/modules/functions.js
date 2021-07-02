@@ -50,6 +50,10 @@ module.exports = (client) => {
     return client.currency.add(`${userID}.wallet`, amount)
   }
 
+  client.subWallet = async (userID, amount) => {
+    return client.currency.subtract(`${userID}.wallet`, amount)
+  }
+
   client.addcmdusage = async (userID) => {
     return client.currency.add(`${userID}.commands`, 1)
   }

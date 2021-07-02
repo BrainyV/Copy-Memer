@@ -12,14 +12,12 @@ module.exports = {
 
             if (!args[0]) return message.reply('wha... what do you want me to do??')
             if (await client.isBotOwner(message.author.id)) { 
-            client.subtractWallet(removeMentionLOL.id, coinsLOL)
+            client.subWallet(removeMentionLOL.id, coinsLOL)
     
-            message.channel.send("Action Done!! :D")
+            message.channel.send("i hope you didn't ge all of their moeny.")
 
         } else {
-
-            message.channel.send("are you my developer???")
-            
+            return;
         }
         
     }
