@@ -9,7 +9,7 @@
 
     ],
     "lucky": [
-        "You should not begging take this {coins} coins.",
+        "You should not be begging, take this {coins} coins.",
         "Here is {coins} coins, spend this wisely.",
         "The police gave you {coins} coins and says go home or he will jail you."
     ],
@@ -17,6 +17,7 @@
         "I won lottery yesterday, take this {coins} coins bro.",
         "Your mommy saw you begging and gave you {coins} coins.",
         "Dank Memer gave you {coins} coins and tell you to gamble it.",
-        "**Brainy:** Woah you are so lucky that I saw you, put this {coins} coins in your wallet."
+        "**Brainy:** Woah you are so lucky that I saw you, put this {coins} coins in your wallet.",
+        "**justme**: Take this {coins}, noob"
     ]
 }
