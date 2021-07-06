@@ -20,12 +20,14 @@ module.exports = {
             "Definitely justme's Alt",
             "Real Brainy",
         ]
-        try {
+
         let nicks = nicknamesXD[Math.floor(Math.random() * nicknamesXD.length)]
-        message.reply(`Hahaha check your nick once?`)
+        //message.reply(`Hahaha check your nick once?`)
         message.member.setNickname(nicks)
-        } catch (err) {
-            message.channel.send(`I couldn't change your nick but if I could, I would name it \`${nicks}\``)
+
+        if (Discord.DiscordAPIError) {
+            message.channel.send("I had an error")
         }
+
     }
 }
