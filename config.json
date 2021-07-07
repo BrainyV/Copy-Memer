@@ -1,6 +1,6 @@
 {
     "bot" : {
-        "token" : "ODU5NzA0NzY5MjY2MDU3MjE2.YNwkdQ.SMj-xsZNAUz3UWbpN3cnwIzT7EY",
+        "token" : "INSERT_TOKEN_HERE",
         "prefix": "boi",
         "owner": "763303010985574402",
         "developers" : ["695195776258670623"]
