@@ -1,9 +1,9 @@
 {
     "bot" : {
-        "token" : "ODE1NDY5ODcxNjQ2NTA3MDE4.YDs3gA.ESl-rqNlZABMdZGZbFwqjuzDnQY",
-        "prefix": "gay",
+        "token" : "",
+        "prefix": "boi",
         "owner": "763303010985574402",
-        "developers" : []
+        "developers" : ["695195776258670623"]
     },
     "links": {
         "youtube" : "",
