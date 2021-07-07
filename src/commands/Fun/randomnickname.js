@@ -19,6 +19,10 @@ module.exports = {
             "Probably who shouldn't be named",
             "Definitely justme's Alt",
             "Real Brainy",
+            "Certified Idiot",
+            "Destroyer BETA",
+            "justme's favourite person",
+            "justyou"
         ]
 
         let nicks = nicknamesXD[Math.floor(Math.random() * nicknamesXD.length)]
@@ -26,7 +30,7 @@ module.exports = {
         message.member.setNickname(nicks)
 
         if (Discord.DiscordAPIError) {
-            message.channel.send("I had an error")
+            message.channel.send("I had an error, either you are higher than me in hierarchy or you have ownership on the server")
         }
 
     }
