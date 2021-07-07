@@ -4,5 +4,9 @@
         "prefix": "boi",
         "owner": "763303010985574402",
         "developers" : ["695195776258670623"]
-    }
+    },
+    "links": {
+        "youtube" : ""
+        "discord" : ""
+    }    
 }
