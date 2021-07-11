@@ -20,7 +20,7 @@ module.exports = {
         if (user.id === message.guild.owner.id) return message.reply("do you think I could kick the server owner?");
         if (user.id === client.user.id) return message.reply("why would you kick me, huh?");
         if (user.roles.highest.rawPosition >= mod.roles.highest.rawPosition) return message.reply("you cannot kick user with higher or equal roles to you.")
-        if (!user.kickable) return message.reply("i could not ban this user, probably this user has higher roles than me.")
+        if (!user.kickable) return message.reply("i could not kick this user, probably this user has higher roles than me.")
 
         message.delete({timeout: 10000})
         message.channel.send(`**${user.user.tag} has been kicked from the server**`).then(m => {m.delete({timeout: 10000})})
